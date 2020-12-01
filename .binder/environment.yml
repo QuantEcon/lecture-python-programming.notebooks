@@ -1,10 +1,10 @@
 name: lecture-python-programming
 channels:
   - default
+  - conda-forge
 dependencies:
   - python=3.8
   - anaconda=2020.07
-  - libgcc-ng
   - pip
   - pip:
     - git+https://github.com/executablebooks/jupyter-book.git
