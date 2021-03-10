@@ -2,7 +2,7 @@ name: lecture-python-programming
 channels:
   - default
 dependencies:
-  - python
+  - python=3.8
   - anaconda
 
 
