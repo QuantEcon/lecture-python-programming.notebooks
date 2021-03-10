@@ -1,16 +1,13 @@
 name: lecture-python-programming
 channels:
-  - default
+  - conda-forge
 dependencies:
-  - python=3.8
-  - anaconda=2020.11
+  - python
+  - numpy
   - pip
   - pip:
-    - jupyter-book
-    - sphinxext-rediraffe
-    - sphinx-multitoc-numbering
-    - joblib
-    - interpolation
-    - sphinx-tojupyter
-    - quantecon-book-theme
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
 
